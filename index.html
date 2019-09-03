@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <title>POP-UP Form</title>
+</head>
+<body>
+<div class="popup-bg">
+    <p>This is all the Background Text</p>
+    <div class="popup-main">
+        <div class="main-content">
+            <h2>Login/Signup</h2>
+            <form method="post" action="#" class="signup-form">
+                <div class="mobile-num">
+                    <label for="num-input">Enter Your Mobile Number to Signin</label><br/>
+                    <label for="initials"></label>
+                    <select name="initials" id="initials">
+                        <option value="+91" selected>+91</option>
+                    </select>
+                    <input type="text" name="user-number" id="num-input" required>
+                </div>
+                <div>
+                    <ion-icon class="icon-big" name="call"></ion-icon>
+                </div>
+                <div >
+                    <input class="submit-but" type="submit" value="Send OTP">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
