@@ -10,7 +10,7 @@
 <body>
 <div class="popup-bg">
     <p>This is all the Background Text</p>
-    <div class="popup-main">
+    <div class="popup-main active">
         <div class="main-content">
             <h2>Login/Signup</h2>
             <form method="post" action="#" class="signup-form">
@@ -31,6 +31,21 @@
             </form>
         </div>
 
+    </div>
+    <div class="popup-main ">
+        <div class="main-content">
+            <h2>Login/Signup</h2>
+            <form method="post" action="#" class="signup-form">
+                <div class="mobile-num">
+                    <label for="otp-input">A 4 digit OTP has been successfully sent.</label><br/>
+                    <p id="faded">Enter the 4 digit OTP here</p>
+                    <input type="text" name="user-number" id="otp-input" required>
+                </div>
+                <div>
+                    <input class="submit-but resend" type="submit" value="Send OTP">
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
